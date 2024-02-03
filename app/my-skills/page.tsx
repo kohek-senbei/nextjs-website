@@ -12,16 +12,16 @@ function Page() {
       style={{ backgroundImage: "url(/project2.jpg)" }}
       className="h-screen w-screen flex items-center justify-center bg-cover bg-center"
     >
-      <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
+      <div className="flex flex-col gap-15 md:gap-20 max-w-[80%] text-center items-center">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="font-semibold text-white text-[50px]">
+          <h1 className="font-semibold text-white text-[40px] md:text-[50px]">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-cyan-500">
-              {" "}Webエンジニア
+              {" "}Webエンジニア<br className='md:hidden'></br>
               {" "}
               &{" "}スキルセット
             </span>
           </h1>
-          <p className='text-gray-100 text-[20px]'>
+          <p className='text-gray-100 text-[16px] md:text-[20px]'>
             お仕事のご依頼お待ちしております。
           </p>
         </div>
